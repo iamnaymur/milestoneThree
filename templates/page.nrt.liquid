@@ -1,0 +1,18 @@
+<div class="custom-cl">
+  {% for i in (1..10) %}
+    {{ i | replace : i, "I love Bangladesh" | upcase }}
+  {% endfor %}
+</div>
+
+
+<style>
+    .custom-cl {
+      display: flex;
+      width: 100vw;
+      height: 50vh;
+      justify-content : center;
+      align-items : center;
+  }
+</style>
+
+
